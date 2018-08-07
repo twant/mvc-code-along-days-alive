@@ -61,12 +61,6 @@ def years_alive(birthday)
 end
 
 
-
-def klossify(phrase)
-  phrase.gsub("c","k").gsub("C","K")
-end
-
-
  def piglatinize(word)
     non_pig_latin_words = ["i", "me", "to", "too", "a", "an", "in", "and", "on"]
     vowels = ["a", "e", "i", "o", "u"]
